@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-routing-lazy-loading-companies/precache-manifest.b687968f40dac8a41fe44581cda2585e.js"
+  "/react-routing-lazy-loading-companies/precache-manifest.7a7c7e3fa5045f9550cc16a650020ae6.js"
 );
 
 self.addEventListener('message', (event) => {
