@@ -1,9 +1,14 @@
-import React from "react";
+import React, { Suspense } from "react"; // for lazy loading
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import App from "../App";
 import Raw from "../pages/raw";
 import Surfboard from "../pages/surfboard";
 import Contentstack from "../pages/contentstack";
+
+// // using React.lazy( ) to lazy load components
+// const Surfboard = React.lazy(() => import("../pages/surfboard"));
+// const Contentstack = React.lazy(() => import("../pages/contentstack"));
+
 import TeamMembers from "../container/teamMembers";
 // import EmployeeCard from "../components/employeeCard";
 const Router = (props) => {
@@ -29,7 +34,7 @@ const Router = (props) => {
           render={(props) => <TeamMembers {...props} />}
         />
 
-        <Route
+        {/* <Route
           exact
           path="/surfboard/employeelist"
           render={(props) => <TeamMembers {...props} />}
@@ -39,6 +44,27 @@ const Router = (props) => {
           exact
           path="/contentstack/employeelist"
           render={(props) => <TeamMembers {...props} />}
+        /> */}
+
+        {/* Lazy loading the following components  */}
+        <Route
+          exact
+          path="/surfboard/employeelist"
+          render={(props) => (
+            <Suspense fallback={<h1>Loading </h1>}>
+              <TeamMembers {...props} />
+            </Suspense>
+          )}
+        />
+
+        <Route
+          exact
+          path="/contentstack/employeelist"
+          render={(props) => (
+            <Suspense fallback={<h1>Loading </h1>}>
+              <TeamMembers {...props} />
+            </Suspense>
+          )}
         />
       </Switch>
     </BrowserRouter>

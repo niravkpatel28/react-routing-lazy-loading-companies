@@ -29,7 +29,7 @@ class App extends React.Component {
   render() {
     console.log("inside app", this.props);
     return (
-      <div>
+      <div className="page-header">
         {" "}
         <h1> Home Page </h1>
         <div className="company-card">
