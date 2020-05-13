@@ -1,0 +1,26 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: x-large;
+}
+/* 
+.banner img {
+  width: 70%;
+  /* position: absolute; */
+/* z-index: -1;
+}  */
+
+.banner img {
+  width: 100%;
+}
+
+.banner h1 {
+  margin: auto;
+}
+
+.site-content {
+  text-align: center;
+}

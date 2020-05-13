@@ -1,0 +1,8 @@
+.company-card {
+  display: flex;
+  /* for placing cards next to each other */
+  flex-direction: row;
+  /* for placing cards one below the other */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}

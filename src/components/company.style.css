@@ -1,0 +1,24 @@
+.company-tab {
+  display: flex;
+  flex-direction: column;
+  /* for aliging the logo in center */
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  font-size: 90%;
+}
+
+.company-logo {
+  width: 15%;
+  height: 15%;
+  padding-top: 10px;
+  /* margin-top: auto;
+  margin-bottom: auto;
+  */
+}
