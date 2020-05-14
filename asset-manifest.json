@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-routing-lazy-loading-companies/static/css/main.acec7f34.chunk.css",
+    "main.css": "/react-routing-lazy-loading-companies/static/css/main.c59888c9.chunk.css",
     "main.js": "/react-routing-lazy-loading-companies/static/js/main.176daf2e.chunk.js",
     "main.js.map": "/react-routing-lazy-loading-companies/static/js/main.176daf2e.chunk.js.map",
     "runtime-main.js": "/react-routing-lazy-loading-companies/static/js/runtime-main.8724cd1b.js",
@@ -8,15 +8,15 @@
     "static/js/2.d9112b8d.chunk.js": "/react-routing-lazy-loading-companies/static/js/2.d9112b8d.chunk.js",
     "static/js/2.d9112b8d.chunk.js.map": "/react-routing-lazy-loading-companies/static/js/2.d9112b8d.chunk.js.map",
     "index.html": "/react-routing-lazy-loading-companies/index.html",
-    "precache-manifest.7a7c7e3fa5045f9550cc16a650020ae6.js": "/react-routing-lazy-loading-companies/precache-manifest.7a7c7e3fa5045f9550cc16a650020ae6.js",
+    "precache-manifest.0682841c2ef6039e5afc48416c237fc7.js": "/react-routing-lazy-loading-companies/precache-manifest.0682841c2ef6039e5afc48416c237fc7.js",
     "service-worker.js": "/react-routing-lazy-loading-companies/service-worker.js",
-    "static/css/main.acec7f34.chunk.css.map": "/react-routing-lazy-loading-companies/static/css/main.acec7f34.chunk.css.map",
+    "static/css/main.c59888c9.chunk.css.map": "/react-routing-lazy-loading-companies/static/css/main.c59888c9.chunk.css.map",
     "static/js/2.d9112b8d.chunk.js.LICENSE.txt": "/react-routing-lazy-loading-companies/static/js/2.d9112b8d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8724cd1b.js",
     "static/js/2.d9112b8d.chunk.js",
-    "static/css/main.acec7f34.chunk.css",
+    "static/css/main.c59888c9.chunk.css",
     "static/js/main.176daf2e.chunk.js"
   ]
 }
