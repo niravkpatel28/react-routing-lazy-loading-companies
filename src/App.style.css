@@ -5,6 +5,8 @@
   /* for placing cards one below the other */
   flex-direction: column;
   flex-wrap: wrap;
+  /* change the font size with respect to change in viewport */
+  font-size: 2vw;
 }
 
 .page-header {
